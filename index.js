@@ -17,6 +17,8 @@ fs.readdir('./events',(err, files)=>{
 })
 
 client.commands = new Discord.Collection();
+client.projects = new Discord.Collection();
+
 fs.readdir('./commands', (err, files)=>{
 	if (err) return console.error(err);
 	files.forEach(file => {

@@ -1,3 +1,5 @@
 module.exports = {
-    reactionEmoji:"🥳"
+    reactionEmoji:"🥳",
+    generalChannel: "general",
+    adminChannel: "admin-top-secret"
 }
