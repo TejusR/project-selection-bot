@@ -1,6 +1,6 @@
-#Project Selection bot
+# Project Selection bot
 
-##Introduction
+## Introduction
 Project selection bot is a discord bot built with javascript. People interested in working on a project react to the bot's message and the bot recommends the people who should work on the project based on their existing projects.
 
 ## Project setup
@@ -11,15 +11,15 @@ Project selection bot is a discord bot built with javascript. People interested 
 5. Run the bot: `node index.js`
 
 ## Bot usage
-####looking for people command:
+#### looking for people command:
     `!looking-for-people <number of people> <project description>`
 Example:
 ![image](lookingForpeople.jpeg)  
 
-####React to the bot's message to show that you're interested  
+#### React to the bot's message to show that you're interested  
 
 ![image](botMessage.jpeg)  
 
-####Results Command:  
+#### Results Command:  
 `!results` to see the recommended people  
 ![image](peopleSelex.jpeg)  
