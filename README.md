@@ -14,12 +14,12 @@ Project selection bot is a discord bot built with javascript. People interested 
 ####looking for people command:
     `!looking-for-people <number of people> <project description>`
 Example:
-![image](lookingForPeople.jpeg)
+![image](lookingForpeople.jpeg)  
 
-####React to the bot's message to show that you're interested
+####React to the bot's message to show that you're interested  
 
-![image](botMessage.jpeg)
+![image](botMessage.jpeg)  
 
-####Results Command:
-`!results` to see the recommended people
-![image](peopleSelex.jpeg)
+####Results Command:  
+`!results` to see the recommended people  
+![image](peopleSelex.jpeg)  
