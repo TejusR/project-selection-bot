@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const utils = require('./utils');
 const fs = require('fs');
+const {mapMembersToId} = require("./helpers/mapMembers")
 
 client.once('ready', () => {
 	console.log('Ready!');
@@ -18,6 +19,10 @@ fs.readdir('./events',(err, files)=>{
 
 client.commands = new Discord.Collection();
 client.projects = new Discord.Collection();
+client.members = new Discord.Collection();
+client.people = new Discord.Collection();
+
+mapMembersToId(client)
 
 fs.readdir('./commands', (err, files)=>{
 	if (err) return console.error(err);

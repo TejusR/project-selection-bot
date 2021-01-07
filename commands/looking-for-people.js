@@ -16,6 +16,7 @@ module.exports = {
         general.send(content).then(sent=>{
             // console.log(message.member)
             client.projects.set(message.member.id, sent.id)
+            client.people.set(message.member.id, args[0])
             // console.log(sent.id)
         })
 	},
