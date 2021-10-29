@@ -23,3 +23,6 @@ Example:
 #### Results Command:  
 `!results` to see the recommended people  
 ![image](peopleSelex.jpeg)  
+
+#### Features to add: 
+Connect db
